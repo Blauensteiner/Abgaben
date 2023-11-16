@@ -1,0 +1,134 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+body 
+{ 
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Source Sans Pro';
+}
+
+main
+{
+    margin-top: 15px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16416B;
+}
+
+nav li 
+{
+    float: left;
+}
+
+nav li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover 
+{
+    background-color: steelblue;
+}
+#headernewsbox
+{
+    text-align: left;
+    float: left;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.newsbox
+{
+    background-color: steelblue;
+    overflow: hidden;
+    padding: 15px 0px 0px;
+    color: white;
+}
+
+.newsbox h1, h2, p, b
+{
+    padding-left: 20px;
+}
+
+.Sonstiges
+{
+    background-color: white;
+}
+
+.Sonstiges h1
+{
+    font-size: 28px;
+    font-weight: bold;
+    color:black;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.Sonstiges h2
+{
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+.Sonstiges p
+{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+}
+
+.putin
+{
+    background-color:rgb(198, 224, 250);
+    border-left: 10px solid dodgerblue;
+    display: block;
+    align-items: center;
+}
+
+.putin img
+{
+    padding: 16px 0px 18px 22px;
+    max-width: 30%;
+    max-height: 30%;
+    align-self: center;
+}
+
+.putin span
+{
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 9%;
+    float: right;
+}
+
+.putin p
+{
+    font-size: smaller;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.Anschrift
+{
+    font-style: italic;
+}
